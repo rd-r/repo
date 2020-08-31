@@ -1,28 +1,60 @@
 Package: com.supermamon.newpackage
-Version: 2.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
+Name: New Package
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
+Depends: firmware (>7.0), mobilesubstrate
+Description: This is a sample new package. Firmware should be greater than 7.0
+Maintainer: Reposi3 <reposithree@gmail.com>
+Author: Reposi3 <reposithree@gmail.com>
+Section: Tweaks
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+Version: 2.0.0-1
+Filename: debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
+Depiction: https://rd-r.github.io/repo/depictions/com.supermamon.newpackage.html
 Size: 854
 MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+SHA1: 46bbcd314f5bcb29e05e287f08fe50e6547ea401
+SHA256: b01c426f4e262c901fd0a9dce060d89327af05bdbd203ce7527c133c1bc8cafd
+SHA521: 7c68d881ab4e5e114423c404ae1cac65137dcc3d3b25108d1d5c862df9516ed12e3240cb40bf952ba9bf8d9ef1b04e4cc58097710ead23e0fdd781e0692a20c6
 
 Package: com.supermamon.oldpackage
-Version: 1.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
+Name: Old Package
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
+Depends: firmware (<7.0)
+Description: This is a sample old package. Firmware should be lower than 7.0
+Maintainer: Reposi3 <reposithree@gmail.com>
+Author: Reposi3 <reposithree@gmail.com>
+Section: Tweaks
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Version: 1.0.0-1
+Filename: debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
+Depiction: https://rd-r.github.io/repo/depictions/com.supermamon.oldpackage.html
 Size: 860
 MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+SHA1: 44f945218a8f72e24ad69191bfee4a89bb7e9bc0
+SHA256: 2d0cf4ea9ddc1d1be3968c869ddd29bd850eae37ccd9b35d100f72b7aca62f8e
+SHA521: 46768496071d6b6bc93e6ce85c275aa38ac2e8aa0a075d227325f0e6261f9fde70333e7346fa0c43628e391537efe135c7d8775e0b271be76222737a0e8e48bb
+
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Depends: firmware (>= 5.0), firmware (<= 13.6.1), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Homepage: https://cydia.akemi.ai/
+Provides: appsync
+Replaces: us.hackulo.appsync50
+Package: net.angelxwind.appsyncunified
+Name: AppSync Unified
+Architecture: iphoneos-arm
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Section: Tweaks
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Version: 82.0
+Installed-Size: 496
+Filename: debs/net.angelxwind.appsyncunified_82.0_iphoneos-arm.deb
+Depiction: https://rd-r.github.io/repo/depictions/net.angelxwind.appsyncunified.html
+Icon: https://rd-r.github.io/repo/icons/net.angelxwind.appsyncunified.png
+Size: 42046
+MD5sum: 6ef3e0bd5be8edbff712fe3cd08a06f2
+SHA1: 98e6cd88b193962ee9c4fbd97d124a04dc32ceb8
+SHA256: 2408fcab9be1576efe7e42cc2390f79e3de9b092175796a3444c95496ac8c7f3
+SHA521: 1213104d0fc25816ae39d66bdf9206b013760339d5d857ff1de63fcc4ad22015acc5231f4bcdc4189ef89dbd786b6323fb89d5599bcb681c6f0879e157327c10
 
